@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Ask Your Question</title>
+</head>
+
+<body>
+
+    <div class="glass">
+        <h1>Ask Your Question </h1>
+        <h2>Yeah,ask Some Question</h2>
+
+        <div class="input">
+           <input 
+           type="text" 
+           id="userBox"
+           onkeydown="if(event.keyCode == 13){ talk()}"
+           placeholder="Type your Question" 
+           />
+        </div>
+        
+       <p id="chatLog">Answer Appering Hear</p> 
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
